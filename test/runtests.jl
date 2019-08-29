@@ -3,9 +3,6 @@ using Random
 
 Random.seed!(0)
 
-# So we can use the system CuArrays
-insert!(LOAD_PATH, 2, "@v#.#")
-
 @testset "Flux" begin
 
 @info "Testing Basics"
